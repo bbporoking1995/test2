@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
 }
 .container {
-  width: 1200px;
+  width: 70%;
   height: 100%;
   margin: auto;
 }
@@ -44,6 +44,7 @@
   font-size: 32px;
 }
 .banner-txt p {
+  width: 60%;
   font-size: 20px;
 }
 
@@ -51,10 +52,18 @@
   .banner {
     background-image: url(./pic/p2.png);
   }
+  .banner-txt h1 {
+    width: 100%;
+    text-align: center;
+  }
   .banner-txt h2 {
+    width: 100%;
+    text-align: center;
     color: lightyellow;
   }
   .banner-txt p {
+    width: 100%;
+    text-align: justify;
     color: lightgoldenrodyellow;
   }
 }
